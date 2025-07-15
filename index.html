@@ -1,1 +1,186 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Facebook-style Front Page Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <!-- Google Font – Roboto (close to Facebook’s system font stack) -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ------- CSS RESET ------- */
+    *, *::before, *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI",
+                   Helvetica, Arial, sans-serif;
+      background: #f0f2f5;              /* FB page gray                      */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    /* ------- FLEX WRAPPER ------- */
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      max-width: 1000px;
+      padding: 0 15px;
+    }
+
+    /* ------- LEFT COLUMN (LOGO & TAGLINE) ------- */
+    .branding h1 {
+      color: #1877F2;                   /* Official “Facebook Blue” [23]     */
+      font-size: 4rem;
+      margin-bottom: 0.5rem;
+    }
+    .branding p {
+      font-size: 1.75rem;
+      line-height: 1.2;
+      max-width: 380px;
+    }
+
+    /* ------- LOGIN CARD ------- */
+    form {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 380px;
+      box-shadow: 0 2px 4px rgba(0,0,0,.1),
+                  0 8px 16px rgba(0,0,0,.1);
+      display: flex;
+      flex-direction: column;
+    }
+    form input {
+      height: 52px;
+      font-size: 1rem;
+      border: 1px solid #ccd0d5;
+      border-radius: 6px;
+      padding: 0 14px;
+      margin-bottom: 14px;
+    }
+    form input:focus {
+      outline: none;
+      border-color: #1877F2;
+      box-shadow: 0 0 0 2px rgba(24,119,242,.2);
+    }
+
+    .btn-primary {
+      background: #1877F2;
+      color: #fff;
+      font-size: 1.125rem;
+      font-weight: 600;
+      border: none;
+      border-radius: 6px;
+      padding: 14px 0;
+      cursor: pointer;
+      transition: background .2s ease;
+    }
+    .btn-primary:hover { background: #0d65d9; }
+
+    .forgot {
+      margin: 16px 0;
+      text-align: center;
+    }
+    .forgot a {
+      color: #1877F2;
+      font-size: .875rem;
+      text-decoration: none;
+    }
+    .forgot a:hover { text-decoration: underline; }
+
+    hr { border: none; height: 1px; background: #dadde1; margin: 20px 0; }
+
+    .btn-secondary {
+      background: #42b72a;
+      color: #fff;
+      font-weight: 600;
+      padding: 14px 0;
+      border-radius: 6px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      transition: background .2s ease;
+    }
+    .btn-secondary:hover { background: #36a420; }
+
+    /* ------- FOOTER LANGUAGE LINKS ------- */
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: transparent;
+      padding: 20px 0 40px;
+      font-size: 12px;
+      color: #8a8d91;
+    }
+    .lang-list, .util-list {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 8px 15px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .lang-list li, .util-list li { margin-right: 18px; }
+    .util-list { border-top: 1px solid #dddfe2; padding-top: 12px; }
+
+    /* ------- RESPONSIVE TWEAKS ------- */
+    @media (max-width: 900px) {
+      .container { flex-direction: column; text-align: center; }
+      .branding { margin-bottom: 40px; }
+      .branding h1 { font-size: 3.5rem; }
+      .branding p { font-size: 1.5rem; margin: 0 auto; }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="container">
+
+    <!-- Left column -->
+    <section class="branding">
+      <h1>facebook</h1>
+      <p>Connect with friends and the world around you on Facebook.</p>
+    </section>
+
+    <!-- Login card -->
+    <form action="#">
+      <input type="email" placeholder="Email or phone number" required />
+      <input type="password" placeholder="Password" required />
+      <button class="btn-primary" type="submit">Log In</button>
+
+      <div class="forgot">
+        <a href="#">Forgot password?</a>
+      </div>
+
+      <hr />
+
+      <a class="btn-secondary" href="#">Create new account</a>
+    </form>
+
+  </main>
+
+  <!-- Language + utility links (static for demo) -->
+  <footer>
+    <ul class="lang-list">
+      <li>English (US)</li><li><a href="#">Español</a></li><li><a href="#">Français (France)</a></li>
+      <li><a href="#">Deutsch</a></li><li><a href="#">Português (Brasil)</a></li><li><button>+</button></li>
+    </ul>
+    <ul class="util-list">
+      <li><a href="#">Sign Up</a></li><li><a href="#">Log In</a></li><li><a href="#">Messenger</a></li>
+      <li><a href="#">Privacy Policy</a></li><li><a href="#">Cookies</a></li><li>Meta © 2025</li>
+    </ul>
+  </footer>
+</body>
+</html>
