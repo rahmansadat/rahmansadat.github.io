@@ -82,17 +82,11 @@ experiences:
     time: Jun 2024 - Present
     company: Nokia, Athens
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
+      Designed and built automated test infrastructure for the widely deployed 
+      SR OS and SR Linux platforms.
+        - 2024 - Contributed to a major project refactoring and stabilising 200+ MPLS test cases inherited in a poor condition from the previous team.
+        - 2025 - Created Python infrastructure to support MPLS test development; implemented test coverage for new RSVP Auto-Bandwidth and LSP-Container features.
+        - 2026 - Developed complete RSVP-TE test coverage for the initial release of MPLS feature in SR Linux.
 
 certifications:
   title: Certifications
