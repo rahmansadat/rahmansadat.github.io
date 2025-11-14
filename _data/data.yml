@@ -46,15 +46,8 @@ sidebar:
   interests:
     title: Skills
     info:
-    - item: Python, TCL, SQL
-      link:
-
-    - item: TCP/IP, MPLS, L2/L3 VPNs, BGP, DNS, DHCP, VLANs 
-      link:
-
-    # - item: 
-    #   link:
-
+    - item: Python, Bash, SQL, Docker, Git, TCL, JSON/YAML
+    - item: TCP/IP, MPLS, L2/L3 VPNs, BGP, DNS, DHCP, VLANs
 
 career-profile:
   title: Career Profile
