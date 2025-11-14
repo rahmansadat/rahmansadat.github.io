@@ -88,6 +88,12 @@ experiences:
         - 2025 - Created Python infrastructure to support MPLS test development; implemented test coverage for new RSVP Auto-Bandwidth and LSP-Container features.
         - 2026 - Developed complete RSVP-TE test coverage for the initial release of MPLS feature in SR Linux.
 
+  - role: Technical Support Specialist
+    time: Jun 2021 - Sep 2021
+    company: WIND Telecom, Athens
+    details: |
+      Provided first-line technical support to end users, resolving issues related to network connectivity, SIM cards, and device configuration.
+
 certifications:
   title: Certifications
   list:
@@ -142,18 +148,6 @@ projects:
     link: "#"
     tagline: "A responsive website template designed to help web developers/designers market their services."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
 
 skills:
   title: Skills &amp; Proficiency
@@ -162,19 +156,19 @@ skills:
   - name: Python & Django
     level: 98%
 
-  - name: Javascript & jQuery
+  - name: SQL
     level: 98%
 
-  - name: Angular
+  - name: Docker
     level: 98%
 
-  - name: HTML5 & CSS
+  - name: JSON
     level: 95%
 
-  - name: Ruby on Rails
+  - name: TCL
     level: 85%
 
-  - name: Sketch & Photoshop
+  - name: Bash
     level: 60%
 
 footer: >
