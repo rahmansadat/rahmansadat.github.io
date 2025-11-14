@@ -69,7 +69,7 @@ education:
   title: Education
   info:
   - degree: Bsc Computer Science - First Class Honours (1st)
-    university: Coventry University
+    university: Coventry University, Coventry UK
     time: 2020 - 2023
     details: 
 
@@ -78,7 +78,7 @@ experiences:
   info:
   - role: Software Engineer, Network Infrastructure - MPLS team
     time: Jun 2024 - Present
-    company: Nokia, Athens
+    company: Nokia, Athens GR
     details: |
       Designed and built automated test infrastructure for the widely deployed 
       SR OS and SR Linux platforms.
@@ -88,7 +88,7 @@ experiences:
 
   - role: Technical Support Specialist
     time: Jun 2021 - Sep 2021
-    company: WIND Telecom, Athens
+    company: WIND Telecom, Athens GR
     details: |
       Provided first-line technical support to end users, resolving issues related to network connectivity, SIM cards, and device configuration.
 
